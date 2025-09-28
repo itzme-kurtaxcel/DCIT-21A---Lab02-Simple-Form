@@ -29,9 +29,10 @@ Cavite State University (CvSU) Logo
 
 <!-- You can also view my previous project -->
 
-<!-- https://itzme-kurtaxcel.github.io/Project-TLNTK./ -->
-<!-- https://itzme-kurtaxcel.github.io/DCIT-21A---Lab01-Simple-Resume/ -->
+<!-- https://kurtaxcel.github.io/Project-TLNTK./ -->
+<!-- https://kurtaxcel.github.io/DCIT-21A---Lab01-Simple-Resume/ -->
 
 
 <!-- May the Lord bless us. -->
+
 
