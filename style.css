@@ -1,0 +1,144 @@
+/* --- Base Styles (Inspired by my resume's theme) --- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fef6f6;
+    margin: 0;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cvsu-logo {
+    width: 100px;
+    display: flex;
+    margin: 0 auto 20px auto;
+}
+
+/* --- Section Title (Styled like my resume's section titles) --- */
+.section-title {
+    font-size: 1.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* --- Form Grouping & Labels --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group > label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* --- Input Fields, Select, and Textarea --- */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+input[type=text]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 50px rgba(0, 123, 255, 0.25);
+}
+
+textarea {
+    resize: none; /* Disable resizing of comments area */
+}
+
+/* --- Radio Button Styling --- */
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.radio-group label {
+    font-weight: normal;
+    margin-right: 25px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.select-group {
+    position: relative;
+    align-items: center;
+}
+
+
+
+/* --- Button Group & Buttons --- */
+.button-group {
+    text-align: right;
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #30b954;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #187e33;
+}
+
+/* Reset Button */
+.btn-reset {
+    background-color: #d62a2a;
+    color: white;
+}
+.btn-reset:hover {
+    background-color: #af2424;
+}
+
+/* Cancel Button */
+.btn-cancel {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ccc;
+}
+.btn-cancel:hover {
+    background-color: #e2e6ea;
+}
